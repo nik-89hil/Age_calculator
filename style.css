@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ0SCLnXOkKUYQ_Kc63UDZD8TyLoGvoTHyog&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box{
+    height: 5em;
+    width: 24em;
+    background-color: rgb(176, 240, 176);
+    margin: 1% 35% 2% 32%;
+    display: flex;
+    padding-left: 12px;
+    padding-right: 14px;
+    border: 4px double green;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hea{
+    width: 95%;
+    height: 2.5em;
+    background-color: white;
+    font-family:cursive;
+    text-align: initial;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    padding-left: 20px;
+    color: crimson;
+    font-weight: 900;
+    text-align: center;
+    word-spacing: 1em;
+    margin-left: 20px;
+}
+
+span{
+    font-family: cursive;
+    color: red;
+    font-size: 25px;
+}
+
+#cont{
+    width: 190px;
+    float: right;
+    font-size: 25px;
+    color: green;
+    font-family: cursive;
+    word-spacing: 1em;
+    margin-right: 50px;
+}
+
+input{
+    height: 2em;
+    width: 4em;
+    font-size: 19px;
+    border: 3px double green;
+    box-shadow: 4px 3px rgb(34, 192, 34);
+    text-align: center;
+    color: green;
+    font-weight: 500;
+    margin-bottom: 2px;
+    
+}
+
+select{
+    height: 3em;
+    width: 7em;
+    font-family: cursive;
+    color: crimson;
+    font-weight: 400;
+    font-size: 18px;
+    border: 4px double crimson;
+    text-align: center;
+    padding: 2px 3px;
+}
+
+#Calculate{
+    width: 10rem;
+    height: 26px;
+    font-size: 17px;
+    border: none;
+    box-shadow: 4px 3px  rgb(176, 240, 176);
+    color: rgb(53, 167, 53);
+    font-weight: 700;
+    font-family: cursive;
+    margin: 2% 43%;
+}
+
+#symbol{
+    margin: 1% 48%;
+    font-size: 22px;
+    font-weight: bolder;
+    color: crimson;
+}
+
+#yourname{
+    height: 3em;
+    width: 18em;
+    font-family: cursive;
+    color: crimson;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 1% 36% 2% 36%;
+    border: 4px double crimson;
+    text-align: center;
+    padding: 2px 3px;
+    box-shadow: none;
+    text-decoration: underline;
+    border-radius: 0px;
+}
+
+#display{
+    margin: 5%;
+    padding: 2% 1%;
+    width: 80%;
+    height: 2em;
+    color:green;
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+
+
